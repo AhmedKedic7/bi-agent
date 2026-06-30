@@ -1,0 +1,15 @@
+{
+  "model": {
+    "name": "gemini-2.0-flash"
+  },
+  "mcpServers": {
+    "postgres": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "${POSTGRES_CONNECTION_STRING}"
+      ]
+    }
+  }
+}
